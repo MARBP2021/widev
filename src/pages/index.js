@@ -1,29 +1,31 @@
-import * as React from "react"
-import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
+import * as React from "react";
+import Helmet from 'react-helmet';
+import {Global,css} from '@emotion/react';
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+const IndexPage = () =>
 
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <StaticImage
-      src="../images/gatsby-astronaut.png"
-      width={300}
-      quality={95}
-      formats={["AUTO", "WEBP", "AVIF"]}
-      alt="A Gatsby astronaut"
-      style={{ marginBottom: `1.45rem` }}
-    />
-    <p>
-      <Link to="/page-2/">Go to page 2</Link> <br />
-      <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
-    </p>
-  </Layout>
+  (
+  <>
+  <Helmet>
+    <title>Welcome to WIDev</title>
+    <link href = "https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com"/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet"/>
+
+  </Helmet>
+
+  <Global
+    styles = {css`
+      body{
+        font-family: 'Poppins', sans-serif;    
+        }
+    `}
+  />
+
+  <h1>Hello world!</h1>
+
+  </>
 )
 
-export default IndexPage
+export default IndexPage 
+
