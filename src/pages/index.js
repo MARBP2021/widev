@@ -18,11 +18,23 @@ const IndexPage = () =>
     styles = {css`
       body{
         font-family: 'Poppins', sans-serif;    
-        }
+        background-color:#1B1F2B;
+      }
     `}
   />
 
-  <h1>Hello world!</h1>
+  <h1 
+    css = {css `
+      color: white;
+      font-weight: bold;
+      width: 200px;
+    `}
+  >
+  Hello,
+  we’re WiDev,
+  a web developer team</h1>
+
+
 
   </>
 )
