@@ -4,6 +4,7 @@ import Head from "../components/Head"
 const technologies = () => {
   return (
     <>
+      <Head />
       <h1>Technologies</h1>
     </>
   )

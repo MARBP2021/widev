@@ -4,7 +4,11 @@ import Head from "../components/Head"
 const works = () => {
   return (
     <>
+      
+      <Head />
       <h1>Works</h1>
+
+
     </>
   )
 }

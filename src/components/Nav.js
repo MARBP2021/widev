@@ -1,17 +1,38 @@
-import * as React from "react"
-import { Link } from "gatsby"
-import Logo from "../images/logo-menu.svg"
-import { Icon } from "@iconify/react"
-import twitterIcon from "@iconify-icons/logos/twitter"
-import bxlWhatsapp from "@iconify-icons/bx/bxl-whatsapp"
-import facebookIcon from "@iconify-icons/bi/facebook"
-import instagramFilled from "@iconify-icons/ant-design/instagram-filled"
-import "./Nav.css"
+import React, {useState} from "react";
+import { Link } from "gatsby";
+import Logo from "../images/logo-menu.svg";
+import { Icon } from "@iconify/react";
+import twitterIcon from "@iconify-icons/logos/twitter";
+import bxlWhatsapp from "@iconify-icons/bx/bxl-whatsapp";
+import facebookIcon from "@iconify-icons/bi/facebook";
+import instagramFilled from "@iconify-icons/ant-design/instagram-filled";
+import OpenMenu from './OpenMenu';
+import CloseMenu from './CloseMenu';
+import "./Nav.css";
 
 const Nav = () => {
+  
+  const [oculto, setOculto] = useState(true)
+  
   return (
     <>
-      <header className="header">
+      
+      {oculto ? (
+        <>
+        <header className="header">
+        <div className="container-menu" onClick={() => setOculto(false)}>
+          <OpenMenu />
+        </div>
+        </header>
+        </>
+      ):(
+        <>
+        <header className="header">
+        <div className="container-menu" onClick={() => setOculto(true)}>
+          <CloseMenu />
+        </div>
+
+        
         <div className="header__logo--container">
           <Logo className="header__logo--container--svg" />
         </div>
@@ -64,6 +85,14 @@ const Nav = () => {
           height="16"
         />
       </footer>
+
+      </>
+      
+
+
+      )}
+
+
     </>
   )
 }

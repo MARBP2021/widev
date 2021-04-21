@@ -3,6 +3,7 @@ import Head from "../components/Head"
 
 const About = () => (
   <>
+    <Head />
     <h1>About</h1>
   </>
 )
