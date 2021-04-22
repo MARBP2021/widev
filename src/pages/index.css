@@ -2,15 +2,22 @@ body{
     font-family: 'Poppins', sans-serif;    
     background-color: #0F1829;
 }
-
-#gatsby-focus-wrapper{
-    height:640px;
-}
-
 .title-h1 {   
-    font-size: 40px;
-    margin-top:60px;
-    margin-left: 30px;
+    width: 300px;
+    height: 277px;
+    font-size: 42px;
+    font-weight: bold;
+    line-height: 62px;
     color: white;
-    width: 200px;
+    margin: 60px 0 0 9%;    
+}
+.contacto {
+    width: 150px;
+    height: 38px;
+    border-style: none;
+    background-color: #2F80ED;
+    color: white;
+    font-family: 'Poppins', sans-serif;  
+    font-size: 14px;
+    margin: 50px 0 0 9%;
 }

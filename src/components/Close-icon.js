@@ -2,7 +2,7 @@ import React from "react"
 import { Icon } from "@iconify/react"
 import closeFill from "@iconify-icons/eva/close-fill"
 
-const CloseMenu = () => {
+const OpenMenu = () => {
   return (
     <>
       <div className="menu">
@@ -12,4 +12,4 @@ const CloseMenu = () => {
   )
 }
 
-export default CloseMenu
+export default OpenMenu

@@ -2,7 +2,7 @@ import React from "react"
 import { Icon } from "@iconify/react"
 import bxMenu from "@iconify-icons/bx/bx-menu"
 
-const OpenMenu = () => {
+const CloseMenu = () => {
   return (
     <>
       <div className="menu">
@@ -12,4 +12,4 @@ const OpenMenu = () => {
   )
 }
 
-export default OpenMenu
+export default CloseMenu
