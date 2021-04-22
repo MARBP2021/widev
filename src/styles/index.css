@@ -1,0 +1,24 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  grid-row-gap: 50px;
+}
+
+.section__title {
+  max-width: 400px;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 64px;
+  color: var(--text-01);
+}
+
+.button {
+  width: 150px;
+  height: 40px;
+  background-color: var(--button-01);
+  color: var(--text-01);
+  font-size: 14px;
+  text-align: center;
+  line-height: 40px;
+  text-decoration: none;
+}

@@ -1,0 +1,94 @@
+.menu {
+  background-color: var(--background-02);
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  left: 0;
+  transition: left 0.5s ease-in-out;
+  grid-row-gap: calc(45px / 1.45);
+  display: grid;
+  flex-direction: column;
+  grid-template-rows: 180px 235px 20px;
+}
+
+.menu--hidden {
+  left: -100%;
+}
+
+.menu__toggle {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  height: 50px;
+  width: 50px;
+  background-color: var(--background-02);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu__toggle > svg {
+  color: var(--icon-03);
+  font-size: 22px;
+}
+
+.menu > div:first-of-type {
+  background-color: var(--background-03);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu__logo {
+  width: 120px;
+}
+
+.menu > ul {
+  border-bottom: 1px solid var(--border-01);
+}
+
+.menu__item {
+  border-top: 1px solid var(--border-01);
+  height: 45px;
+}
+
+.menu__link {
+  display: block;
+  text-align: center;
+  line-height: 45px;
+  text-decoration: none;
+  color: var(--text-03);
+  font-size: 14px;
+}
+
+.menu > div:last-of-type {
+  display: flex;
+  justify-content: center;
+  grid-column-gap: 10px;
+}
+
+.menu__icon {
+  color: var(--icon-01);
+}
+
+.menu__icon > svg {
+  font-size: 20px;
+}
+
+@media (min-width: 768px) {
+  .menu {
+    width: 160px;
+    position: static;
+    float: left;
+  }
+
+  .menu__logo {
+    width: 110px;
+  }
+
+  .menu__toggle {
+    display: none;
+  }
+}

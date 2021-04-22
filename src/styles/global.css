@@ -1,0 +1,27 @@
+:root {
+  --background-01: #0f1829;
+  --background-02: #182130;
+  --background-03: #080f1e;
+  --text-01: #fefefe;
+  --text-02: #2f80ed;
+  --text-03: #7a7a7a;
+  --button-01: #2f80ed;
+  --button-02: #445573;
+  --icon-01: #7a7a7a;
+  --icon-02: #2f80ed;
+  --icon-03: #fefefe;
+  --input-01: #182130;
+  --border-01: #0f1829;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--background-01);
+}
+
+.main {
+  padding: 0 30px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}

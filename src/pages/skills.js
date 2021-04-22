@@ -3,16 +3,16 @@ import Metadata from "../components/Metadata"
 import Menu from "../components/Menu.jsx"
 import "../styles/reset.min.css"
 import "../styles/global.css"
-import "../styles/about.css"
+import "../styles/skills.css"
 
-export default function about() {
+export default function skills() {
   return (
     <>
       <Metadata />
       <Menu />
       <main className="main">
         <section className="section">
-          <h1 className="section__subtitle">about</h1>
+          <h1 className="section__subtitle">skills</h1>
         </section>
       </main>
     </>

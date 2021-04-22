@@ -7,7 +7,6 @@
   "dependencies": {
     "@emotion/core": "^11.0.0",
     "@emotion/styled": "^11.3.0",
-    "css-reset-and-normalize": "^2.3.5",
     "gatsby": "^3.2.1",
     "gatsby-image": "^3.3.0",
     "gatsby-plugin-emotion": "^6.3.0",
@@ -27,10 +26,9 @@
   },
   "devDependencies": {
     "@iconify-icons/ant-design": "^1.1.0",
-    "@iconify-icons/bi": "^1.1.4",
-    "@iconify-icons/bx": "^1.1.0",
-    "@iconify-icons/eva": "^1.1.0",
-    "@iconify-icons/logos": "^1.1.9",
+    "@iconify-icons/codicon": "^1.1.12",
+    "@iconify-icons/fa-brands": "^1.1.0",
+    "@iconify-icons/fa-solid": "^1.1.1",
     "@iconify/react": "^1.1.4",
     "prettier": "2.2.1"
   },

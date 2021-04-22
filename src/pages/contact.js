@@ -1,15 +1,20 @@
 import React from "react"
-import Head from "../components/Head"
-import Nav from "../components/Nav"
+import Metadata from "../components/Metadata"
+import Menu from "../components/Menu.jsx"
+import "../styles/reset.min.css"
+import "../styles/global.css"
+import "../styles/contact.css"
 
-const contact = () => {
+export default function contact() {
   return (
     <>
-      <Head />
-      <Nav />
-      <h1>Contact</h1>
+      <Metadata />
+      <Menu />
+      <main className="main">
+        <section className="section">
+          <h1 className="section__subtitle">contact</h1>
+        </section>
+      </main>
     </>
   )
 }
-
-export default contact
