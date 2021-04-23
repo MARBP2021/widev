@@ -1,7 +1,7 @@
 import React from "react"
-import { Link } from "gatsby"
 import Metadata from "../components/Metadata"
 import Menu from "../components/Menu.jsx"
+import Button from "../components/Button.jsx"
 import "../styles/reset.min.css"
 import "../styles/global.css"
 import "../styles/index.css"
@@ -19,9 +19,7 @@ export default function IndexPage() {
             a web developer <br />
             team
           </h1>
-          <Link className="button" to="/contact">
-            Contactanos
-          </Link>
+          <Button message="Contactanos" route="/contact" />
         </section>
       </main>
     </>
