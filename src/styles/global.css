@@ -22,6 +22,4 @@ body {
 .main {
   padding: 0 30px;
   height: 100vh;
-  display: flex;
-  align-items: center;
 }

@@ -10,6 +10,8 @@ import whatsapp from "@iconify-icons/fa-brands/whatsapp-square"
 import Logo from "../assets/logo.svg"
 import "../styles/menu.css"
 
+
+
 export default function Menu() {
   // State hooks
   const [icon, setIcon] = useState(bars)
@@ -36,11 +38,12 @@ export default function Menu() {
   }
 
   return (
+
     <>
+      <span className="menu__toggle" onClick={showMenu} aria-hidden="true">
+        <Icon icon={icon} />
+      </span>
       <nav className={menuClass}>
-        <span className="menu__toggle" onClick={showMenu} aria-hidden="true">
-          <Icon icon={icon} />
-        </span>
         <div>
           <Logo className="menu__logo" />
         </div>

@@ -22,6 +22,7 @@ export default function IndexPage() {
           <Link className="button" to="/contact">
             Contactanos
           </Link>
+          
         </section>
       </main>
     </>
