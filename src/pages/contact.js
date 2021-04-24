@@ -1,6 +1,8 @@
 import React from "react"
 import Metadata from "../components/Metadata"
 import Menu from "../components/Menu.jsx"
+import Input from "../components/Input.jsx"
+import Button from "../components/Button.jsx"
 import "../styles/reset.min.css"
 import "../styles/global.css"
 import "../styles/contact.css"
@@ -14,12 +16,12 @@ export default function contact() {
         <main className="main">
           <section className="section">
             <h1 className="section__subtitle">Contacto</h1>
-            <form action="" className="section__form">
-              <input type="text" name="nombre" placeholder="Nombre" />
-              <input type="email" name="email" placeholder="Email" />
-              <input type="text" name="asunto" placeholder="Tema" />
+            <form className="form">
+              <Input type="text" name="nombre" placeholder="Nombre" />
+              <Input type="email" name="email" placeholder="Email" />
+              <Input type="text" name="asunto" placeholder="Asunto" />
               <textarea className="textarea" placeholder="Mensaje"></textarea>
-              <input type="submit" value="Send Message" />
+              <Button message="Send Message" route="#" />
             </form>
           </section>
         </main>
