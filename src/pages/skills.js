@@ -9,12 +9,14 @@ export default function skills() {
   return (
     <>
       <Metadata />
-      <Menu />
-      <main className="main">
-        <section className="section">
-          <h1 className="section__subtitle">skills</h1>
-        </section>
-      </main>
+      <div class="container">
+        <Menu />
+        <main className="main">
+          <section className="section">
+            <h1 className="section__subtitle">skills</h1>
+          </section>
+        </main>
+      </div>
     </>
   )
 }

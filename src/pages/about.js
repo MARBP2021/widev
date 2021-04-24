@@ -9,12 +9,14 @@ export default function about() {
   return (
     <>
       <Metadata />
-      <Menu />
-      <main className="main">
-        <section className="section">
-          <h1 className="section__subtitle">about</h1>
-        </section>
-      </main>
+      <div class="container">
+        <Menu />
+        <main className="main">
+          <section className="section">
+            <h1 className="section__subtitle">about</h1>
+          </section>
+        </main>
+      </div>
     </>
   )
 }

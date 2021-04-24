@@ -10,18 +10,20 @@ export default function IndexPage() {
   return (
     <>
       <Metadata />
-      <Menu />
-      <main className="main">
-        <section className="section">
-          <h1 className="section__title">
-            Hello, <br />
-            we’re WiDev, <br />
-            a web developer <br />
-            team
-          </h1>
-          <Button message="Contactanos" route="/contact" />
-        </section>
-      </main>
+      <div className="container">
+        <Menu />
+        <main className="main">
+          <section className="section">
+            <h1 className="section__title">
+              Hello, <br />
+              we’re WiDev, <br />
+              a web developer <br />
+              team
+            </h1>
+            <Button message="Contactanos" route="/contact" />
+          </section>
+        </main>
+      </div>
     </>
   )
 }
