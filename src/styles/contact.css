@@ -1,47 +1,21 @@
-.section__title {
-  max-width: 400px;
-  font-size: 44px;
-  font-weight: 700;
-  line-height: 64px;
-  color: var(--text-01);
-}
-.section__subtitle {
-  font-size: 36px;
-  font-weight: 700;
-  color: var(--text-02); 
-  margin-top: 100px;
-  margin-left: 1%;
-}
-.button {
-  width: 150px;
-  height: 40px;
-  background-color: var(--button-01);
-  color: var(--text-01);
-  font-size: 14px;
-  text-align: center;
-  line-height: 40px;
-  text-decoration: none;
-}
-.section__form{
+.section__form {
   width: 100%;
 }
 
 input[name] {
-
-  border-style:none;
+  border-style: none;
   width: 96%;
-  height:40px;
+  height: 40px;
   border-radius: 5px;
   margin-bottom: 10px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   background-color: #182130;
   padding-left: 15px;
   font-size: 14px;
   outline: none;
   color: white;
-
 }
-input[type="submit"]{
+input[type="submit"] {
   width: 150px;
   height: 40px;
   background-color: var(--button-01);
@@ -56,27 +30,17 @@ input[type="submit"]{
   float: right;
   outline: none;
   color: white;
-
 }
 .textarea {
-
   border-radius: 5px;
   border-style: none;
   width: 96%;
   padding-left: 15px;
-  height:127px;  
+  height: 127px;
   padding-top: 13px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   background-color: #182130;
   font-size: 14px;
   outline: none;
   color: white;
 }
-
-
-
-
-
-
-
-
