@@ -1,0 +1,12 @@
+.input {
+  background-color: var(--background-02);
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  font-family: var(--font-primary);
+  font-size: 14px;
+  outline: none;
+  color: var(--text-01);
+  overflow: hidden;
+  padding: 0 13px;
+}
