@@ -20,6 +20,18 @@ body {
   background-color: var(--background-01);
 }
 
+html,
+body,
+#___gatsby,
+#___gatsby > div,
+.container {
+  height: 100%;
+}
+
+.main {
+  padding: 60px 30px;
+}
+
 .section {
   display: flex;
   flex-direction: column;
