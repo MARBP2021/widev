@@ -37,8 +37,7 @@ export default function contact() {
         <main className="main">
           <section className="section">
             <h1 className="section__subtitle">Contacto</h1>
-
-            <form className="form" onSubmit={sendEmail}>
+            <form className="form" onSubmit={sendEmail} autoComplete="off">
               <Input type="text" name="nombre" placeholder="Nombre" />
               <Input type="email" name="email" placeholder="Email" />
               <Input type="text" name="asunto" placeholder="Asunto" />
@@ -47,7 +46,6 @@ export default function contact() {
                 name="mensaje"
                 placeholder="Mensaje"
               ></textarea>
-
               <input
                 type="submit"
                 name="enviar"

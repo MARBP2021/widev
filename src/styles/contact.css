@@ -14,10 +14,27 @@
   font-size: 14px;
   outline: none;
   color: var(--text-01);
-  overflow: scroll;
   padding: 12px 13px;
   font-weight: 300;
   resize: none;
+}
+
+.textarea::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+.textarea::-webkit-scrollbar:vertical {
+  width: 10px;
+}
+
+.textarea::-webkit-scrollbar-button:increment,
+.textarea::-webkit-scrollbar-button {
+  display: none;
+}
+
+.textarea::-webkit-scrollbar-thumb {
+  background-color: var(--scroll-01);
+  border-radius: 0 5px 5px 0;
 }
 
 .form > .button {
