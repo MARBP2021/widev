@@ -9,7 +9,7 @@ export default function about() {
   return (
     <>
       <Metadata />
-      <div class="container">
+      <div className="container">
         <Menu />
         <main className="main">
           <section className="section">
