@@ -40,4 +40,5 @@
 .form > .button {
   margin-top: 20px;
   align-self: flex-end;
+  font-family: var(--font-primary);
 }
