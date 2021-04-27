@@ -5,6 +5,28 @@
   grid-row-gap: 10px;
 }
 
+.message {
+  padding: 0 13px;
+  height: 40px;
+  line-height: 40px;
+  font-weight: 500;
+  border-radius: 5px;
+  color: var(--text-01);
+  font-size: 14px;
+}
+
+.message--success {
+  background-color: var(--message-01);
+}
+
+.message--error {
+  background-color: var(--message-02);
+}
+
+.message--info {
+  background-color: var(--message-03);
+}
+
 .textarea {
   background-color: var(--background-02);
   border: none;
@@ -17,6 +39,10 @@
   padding: 12px 13px;
   font-weight: 300;
   resize: none;
+}
+
+.textarea::placeholder {
+  user-select: none;
 }
 
 .textarea::-webkit-scrollbar {

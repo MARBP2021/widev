@@ -10,3 +10,7 @@
   overflow: hidden;
   padding: 0 13px;
 }
+
+.input::placeholder {
+  user-select: none;
+}
