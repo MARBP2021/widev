@@ -1,0 +1,51 @@
+.section__title--skills{
+    color: var(--text-02);
+    font-size: 250%;    
+    margin-top: 60px;
+}
+
+.subtitulos {
+    color: var(--text-01);
+    font-size: 120%;
+    display:inline;
+}
+
+.section__container{
+    display:flex;
+    align-items: center;
+}
+.iconos{
+
+    position:relative;
+    z-index: -1;
+    width: 36px;
+    height: 30px;
+
+}
+.section__title--subtitle{
+
+    color: white;
+    margin-left: 20px;
+    font-weight: bold;
+}
+.container__grid--icons{
+  
+  display: grid;
+  grid-template-columns: 9vw 9vw 9vw 9vw;
+  grid-template-rows: 8vh 8vh;
+  gap: 20px 20px;
+  grid-template-areas:
+    ". . . ."
+    ". . . .";
+}
+
+.container__grid--technologies{
+    width: 100%;
+    height: 100%;
+}
+
+#que-usamos{
+    margin-top: 20px;
+}
+
+

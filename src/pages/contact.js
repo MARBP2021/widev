@@ -1,34 +1,44 @@
 import React from "react"
-import emailjs from "emailjs-com"
+import EmailJS from "emailjs-com"
 import Metadata from "../components/Metadata"
 import Menu from "../components/Menu.jsx"
 import Input from "../components/Input.jsx"
-import Button from "../components/Button.jsx"
 import "../styles/reset.min.css"
 import "../styles/global.css"
 import "../styles/contact.css"
 
 export default function contact() {
-  
-
   const sendEmail = e => {
-
     e.preventDefault()
-    emailjs
-      .sendForm(
-        "service_6uii569",
-        "template_5yrxjop",
-        e.target,
-        "user_COyFDhPp2gpYNIiIgPV0Y"
-      )
-      .then(
-        result => {
-          console.log(result.text)
-        },
-        error => {
-          console.log(error.text)
-        }
-      )
+
+    EmailJS.sendForm(
+      "service_6uii569",
+      "template_5yrxjop",
+      e.target,
+      "user_COyFDhPp2gpYNIiIgPV0Y"
+    ).then(
+      result => {
+        console.log(result.text)
+      },
+      error => {
+        console.log(error.text)
+      }
+    ) /* 
+      .then(() => {
+          setMessage({
+            text: "Mensaje enviado con exito",
+            type: "message message--success",
+          })
+
+          e.target.reset() // Clear HTML Form
+        })
+        .catch(() => {
+          setMessage({
+            text: "Error al enviar el mensaje",
+            type: "message message--error",
+          })
+        })
+        */
   }
 
   return (
@@ -41,7 +51,6 @@ export default function contact() {
             <h1 className="section__subtitle">Contacto</h1>
 
             <form className="form" onSubmit={sendEmail}>
-
               <Input type="text" name="nombre" placeholder="Nombre" />
               <Input type="email" name="email" placeholder="Email" />
               <Input type="text" name="asunto" placeholder="Asunto" />
@@ -57,7 +66,6 @@ export default function contact() {
                 className="button"
                 value="Send Message"
               />
-
             </form>
           </section>
         </main>

@@ -13,7 +13,7 @@ export default function IndexPage() {
       <div className="container">
         <Menu />
         <main className="main">
-          <section className="section">
+          <section className="section section__index">
             <h1 className="section__title">
               Hello, <br />
               we’re WiDev, <br />
