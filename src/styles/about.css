@@ -5,13 +5,32 @@
   margin-bottom: -10px;
   max-width: 400px;
 }
-
 .section__paragraph {
   color: var(--text-01);
   line-height: 28px;
 }
-
 .section__link {
   color: var(--text-02);
   font-weight: 500;
+}
+@media (min-width: 1400px) {
+  .section__about{
+    margin-top:52px;
+  }
+  .section__subtitle{
+    font-size: 80px;
+  }
+  .section__paragraph{
+    font-size:35px;
+    width:1000px;
+    line-height:40px;
+    letter-spacing: 1px;
+
+  }
+  .section__link {
+    margin-top:20px;
+    font-size: 30px;
+}
+
+
 }

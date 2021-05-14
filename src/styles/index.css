@@ -1,17 +1,25 @@
-.section__title {
-  max-width: 400px;
-  font-size: 44px;
+.section__title { 
+  font-size:44px;
   font-weight: 700;
   line-height: 64px;
   color: var(--text-01);
 }
-
-
 .section__index{
- 
+  height:75vh;
+  justify-content: center;
+}
 
- height:75vh;
- justify-content: center;
- 
+@media(min-width:1400px){
 
+  .section__title {
+    font-size:110px;
+    line-height: 130px;
+    letter-spacing:1px;
+  }
+  .section__index{
+    justify-content: flex-start;
+    margin-top:37px;
+    margin-left:10px;
+  } 
+  
 }

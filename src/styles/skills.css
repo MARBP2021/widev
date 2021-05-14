@@ -31,12 +31,14 @@
 .container__grid--icons{
   
   display: grid;
-  grid-template-columns: 9vw 9vw 9vw 9vw;
-  grid-template-rows: 8vh 8vh;
+  grid-template-columns: 35px 35px 35px 35px;
+  grid-template-rows: 30px 30px;
   gap: 20px 20px;
   grid-template-areas:
     ". . . ."
     ". . . .";
+  position:relative;
+  z-index: -1;
 }
 
 .container__grid--technologies{
@@ -49,3 +51,4 @@
 }
 
 
+@media(min-width: 768px)

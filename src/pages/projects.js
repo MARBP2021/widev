@@ -1,6 +1,7 @@
 import React from "react"
 import Metadata from "../components/Metadata"
 import Menu from "../components/Menu.jsx"
+import { StaticImage } from "gatsby-plugin-image"
 import "../styles/reset.min.css"
 import "../styles/global.css"
 import "../styles/index.css"

@@ -13,7 +13,7 @@ export default function about() {
       <div className="container">
         <Menu />
         <main className="main">
-          <section className="section">
+          <section className="section section__about">
             <h1 className="section__subtitle">Nosotros</h1>
             <div className="wrapper">
               <p className="section__paragraph">

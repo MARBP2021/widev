@@ -64,6 +64,7 @@
   text-decoration: none;
   color: var(--text-03);
   font-size: 14px;
+  
 }
 
 .menu > div:last-of-type {
@@ -98,3 +99,5 @@
     display: none;
   }
 }
+
+
