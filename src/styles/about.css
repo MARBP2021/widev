@@ -13,9 +13,19 @@
   color: var(--text-02);
   font-weight: 500;
 }
+
+@media (min-width: 768px) {
+  .section__about{
+    margin-top: 57px;
+  }
+
+}
+
+
 @media (min-width: 1400px) {
   .section__about{
     margin-top:52px;
+    
   }
   .section__subtitle{
     font-size: 80px;

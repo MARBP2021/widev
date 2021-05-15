@@ -1,11 +1,9 @@
 .form {
-  max-width: 500px;
+  max-width: 600px;
   display: flex;
   flex-direction: column;
   grid-row-gap: 10px;
-}
-
-.message {
+}.message {
   padding: 0 13px;
   height: 40px;
   line-height: 40px;
@@ -13,20 +11,14 @@
   border-radius: 5px;
   color: var(--text-01);
   font-size: 14px;
-}
-
-.message--success {
+}.message--success {
   background-color: var(--message-01);
-}
-
-.message--error {
+}.message--error {
   background-color: var(--message-02);
 }
-
 .message--info {
   background-color: var(--message-03);
 }
-
 .textarea {
   background-color: var(--background-02);
   border: none;
@@ -57,14 +49,32 @@
 .textarea::-webkit-scrollbar-button {
   display: none;
 }
-
 .textarea::-webkit-scrollbar-thumb {
   background-color: var(--scroll-01);
   border-radius: 0 5px 5px 0;
 }
-
 .form > .button {
   margin-top: 20px;
   align-self: flex-end;
   font-family: var(--font-primary);
+}
+@media (min-width: 768px) {
+  .section__contact {
+    margin-top: 50px;
+  }
+}
+@media (min-width: 1400px) {
+  .form{
+    border-radius: 10px;
+  }
+  input[placeholder] {
+    width:575px;
+    height: 60px;
+  }
+  .textarea{
+    width: 575px;
+    height: 350px;
+    
+
+  }
 }

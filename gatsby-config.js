@@ -9,6 +9,7 @@ module.exports = {
     `gatsby-plugin-emotion`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
+    "gatsby-plugin-react-svg",
     {
       resolve: `gatsby-source-filesystem`,
       options: {

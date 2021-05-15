@@ -2,6 +2,7 @@
     color: var(--text-02);
     font-size: 250%;    
     margin-top: 60px;
+    margin-bottom: 48px;
 }
 
 .subtitulos {
@@ -15,17 +16,17 @@
     align-items: center;
 }
 .iconos{
-
     position:relative;
     z-index: -1;
     width: 36px;
     height: 30px;
-
+    margin-bottom: 30px;
 }
 .section__title--subtitle{
 
     color: white;
     margin-left: 20px;
+    margin-bottom: 30px;
     font-weight: bold;
 }
 .container__grid--icons{
@@ -47,8 +48,37 @@
 }
 
 #que-usamos{
-    margin-top: 20px;
+    margin-top: 0px;
+}
+@media(min-width: 768px){
+    
+    .section__title--skills{
+        margin-top: 50px;
+    }    
+    
 }
 
+@media(min-width:1400px){
+    .section__title--skills{
+        font-size: 500%;
+        margin-top: 0px;
+    }
+    .subtitulos{
+        font-size: 200%;
+    }   
+    .section__container{
+        margin-bottom: 25px;
+    }
+    .container__grid--icons{
+        grid-template-columns: 110px 110px 110px 110px;
+        grid-template-rows: 90px 90px;
+    }
+    .section__skills{
+        margin-top:60px;
+        margin-left:20px;
 
-@media(min-width: 768px)
+
+
+    }
+
+}

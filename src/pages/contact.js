@@ -47,7 +47,7 @@ export default function contact() {
       <div className="container">
         <Menu />
         <main className="main">
-          <section className="section">
+          <section className="section section__contact">
             <h1 className="section__subtitle">Contacto</h1>
 
             <form className="form" onSubmit={sendEmail}>

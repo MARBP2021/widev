@@ -1,0 +1,27 @@
+.main-projects{
+ 
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+}
+.container-projects{
+    width: 100vw;
+    height: 100vh;
+
+}
+.section__projects{
+
+  width: 100vw;
+}
+.aura-music{
+   width:100%;
+   height:100%;
+   margin-right: 100%;
+   position: relative;
+   z-index: -1;
+}
+.paper-news{
+    width: 100%;
+    height: 100%;
+    margin-top: -40px;
+}
