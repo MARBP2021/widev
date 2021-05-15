@@ -17,7 +17,6 @@
   transition: transform 0.5s ease-in-out;
   transform: translateX(-100%);
 }
-
 .menu__toggle {
   position: fixed;
   top: 10px;
